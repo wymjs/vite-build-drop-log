@@ -13,14 +13,14 @@ $ pnpm i -D @wymjs/vite-build-drop-log
 
 ```typescript
 import { defineConfig } from 'vite'
-import { buildDroLog } from '@wymjs/vite-build-drop-log'
+import { buildDropLog } from '@wymjs/vite-build-drop-log'
 
 export default () => {
   return defineConfig({
     plugins: [
       // 配置下去就會在 vite build 時移除項目中的 console 與 debugger
       // 恩...就這樣
-      buildDroLog(),
+      buildDropLog(),
     ],
   })
 }

@@ -4,7 +4,7 @@ const PLUGIN_NAME = '@wymjs/vite-build-drop-log'
 const FULL_PLUGIN_NAME = `vite-plugin-${PLUGIN_NAME}`
 const CONSOLE_NAME = `[${PLUGIN_NAME}]`
 
-export function buildDroLog(): any {
+export function buildDropLog(): any {
 	const plugin: Plugin = {
 		name: FULL_PLUGIN_NAME,
 		enforce: 'pre',
