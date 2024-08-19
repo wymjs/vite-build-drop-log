@@ -1,6 +1,6 @@
 {
 	"name": "@wymjs/vite-build-drop-log",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"type": "module",
 	"description": "構建模式移除 console",
 	"main": "dist/index.js",
